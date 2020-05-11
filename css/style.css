@@ -1,0 +1,32 @@
+body {
+    background: #00c9f8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-title, .site-subtitle {
+    color: whitesmoke;
+    text-align: center;
+}
+
