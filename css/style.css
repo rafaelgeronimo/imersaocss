@@ -148,3 +148,9 @@ input:checked + .slider:before {
         align-items: center;
     }
 }
+
+@media (max-width:420px){
+    ion-icon {
+        display: none;
+    }
+}
