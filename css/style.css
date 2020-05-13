@@ -22,6 +22,10 @@
     --personal-img: url("../img/personal-light.svg");
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--bg-color);
     color: var(--font-color);
@@ -188,6 +192,12 @@ input:checked + .slider:before {
     padding-top: 150px;
     text-align: center;
     width: 200px;
+    transition: transform .5s;
+}
+
+.img-portfolio:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* Layout Desktop*/
