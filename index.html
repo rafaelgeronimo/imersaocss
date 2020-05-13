@@ -28,26 +28,36 @@
             <h2 class="site-subtitle">Web Developer</h2>    
         </section>
     </header>
-    <section>
-        <h2>Portfólio</h2>
-        <figure>
-            <img src="" alt="" class="img-portfolio">
-            <figcaption>eCommerce</figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="" class="img-portfolio">
-            <figcaption>Mobile</figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="" class="img-portfolio">
-            <figcaption>Web Design</figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="" class="img-portfolio">
-            <figcaption>Projetos Pessoais</figcaption>
-        </figure>
+    <section class="portfolio">
+        <h2 class="portfolio-title">Portfólio</h2>
+        <div class="portfolio-images">
+            <div class="column-left">
+                <div class="ecommerce img-portfolio">
+                    <!--<img src="./img/ecommerce-dark.svg" alt="" class="img-portfolio">-->
+                    <figcaption>eCommerce</figcaption>
+                </div>
+                <div class="mobile img-portfolio">
+                    <!--<img src="./img/mobile-dark.svg" alt="" class="img-portfolio">-->
+                    <figcaption>Mobile</figcaption>
+                </div>
+            </div>
+            <div class="column-right">
+                <div class="design img-portfolio">
+                    <!--<img src="./img/web-design-dark.svg" alt="" class="img-portfolio">-->
+                    <figcaption>Web Design</figcaption>
+                </div>
+                <div class="personal img-portfolio">
+                    <!--<img src="./img/personal-dark.svg" alt="" class="img-portfolio">-->
+                    <figcaption>Projetos Pessoais</figcaption>
+                </div>
+            </div>
+        </div>
     </section>
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript">   
+        window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=document.createElement("script");r.type="text/javascript",r.async=!0,r.src="https://cdn.heapanalytics.com/js/heap-"+e+".js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(r,a);for(var n=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],o=0;o<p.length;o++)heap[p[o]]=n(p[o])};   
+        heap.load("3694499859"); 
+    </script>
 </body>
 </html>
