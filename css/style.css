@@ -46,6 +46,7 @@ header {
     position: fixed;
     width: 100vw;
     top: 0;
+    z-index: 1;
 }
 
 .menu ul {
@@ -285,6 +286,7 @@ input:checked + .slider:before {
 .img-portfolio:hover {
     cursor: pointer;
     transform: scale(1.1);
+    z-index: -1;
 }
 
 .contato {
@@ -299,6 +301,38 @@ input:checked + .slider:before {
 
 .contato-logos ion-icon {
     font-size: 50px;
+    transition: transform .5s;
+}
+
+.contato-logos ion-icon:hover{
+    transform: scale(1.1);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-texto {
+    padding: 0 0 0 10%;
+    animation: fadeleft .5s;
+}
+
+.titulo-imagem img {
+    position: relative;
+    width: 40%;
+}
+
+.site-titulo, .site-subtitulo {
+    text-align: left;
+    text-transform: uppercase;
+}
+.site-titulo {
+    font-size: 2em;
+}
+.site-subtitulo{
+    color: var(--font-secondary-color);
+    font-size: 1.4em;
 }
 
 /* Layout Desktop*/
@@ -396,29 +430,3 @@ input:checked + .slider:before {
 
 }
 
-.titulo {
-    display: flex;
-    justify-content: center;
-}
-
-.titulo-texto {
-    padding: 0 0 0 10%;
-    animation: fadeleft .5s;
-}
-
-.titulo-imagem img {
-    position: relative;
-    width: 40%;
-}
-
-.site-titulo, .site-subtitulo {
-    text-align: left;
-    text-transform: uppercase;
-}
-.site-titulo {
-    font-size: 2em;
-}
-.site-subtitulo{
-    color: var(--font-secondary-color);
-    font-size: 1.4em;
-}
