@@ -383,12 +383,17 @@ input:checked + .slider:before {
 }
 
 @media (max-width:462px){
-    ion-icon {
+    .menu ion-icon {
         display: none;
     }
     .title-image {
         display: none;
     }
+    .contato-logos {
+        display: grid;
+        grid-template-columns: 50px 50px;
+    }
+
 }
 
 .titulo {
