@@ -13,7 +13,7 @@
             <ul>
                 <li><a href="#"><ion-icon name="information-circle"></ion-icon> Sobre</a></li>
                 <li><a href="#portfolio"><ion-icon name="albums"></ion-icon> Portfólio</a></li>
-                <li><a href="#"><ion-icon class="icone" name="mail-unread"></ion-icon> Contato</a></li>
+                <li><a href="#contato"><ion-icon class="icone" name="mail-unread"></ion-icon> Contato</a></li>
                 <li class="theme-switch-wrapper">
                     <label for="checkbox" class="theme-switch">
                         <input type="checkbox" id="checkbox">
@@ -22,33 +22,99 @@
                     <span class="mode-button">Dark Mode</span>
                 </li>
             </ul>
-        </nav>
-        <section class="title">
-            <h1 class="site-title">Rafael Gerônimo</h1>
-            <h2 class="site-subtitle">Web Developer</h2>    
-        </section>
+        </nav>    
+            
     </header>
+    <section class="title">
+        <div class="title-name">
+            <h1 class="site-title">Rafael Gerônimo</h1>
+            <h2 class="site-subtitle">Web Developer</h2>
+        </div>
+        <div class="title-image">
+            <img src="img/devices.png" alt="">
+        </div>            
+    </section>
     <section class="portfolio" id="portfolio">
         <h2 class="portfolio-title">Portfólio</h2>
         <div class="portfolio-images">
             <div class="column-left">
-                <div class="ecommerce img-portfolio">
-                    <figcaption>eCommerce</figcaption>
-                </div>
-                <div class="mobile img-portfolio">
-                    <figcaption>Mobile</figcaption>
-                </div>
+                <a href="https://codepen.io/rafaelgeronimo" target="_blank">
+                    <figure class="img-portfolio">
+                        <img src="img/port-codepen.png" alt="">
+                        <figcaption>Codepen</figcaption>
+                    </figure>
+                </a>
+                <a href="https://cursos.alura.com.br/user/rafaelgeronimo/fullCertificate/9d02788d7cf4ed2fd71f530add408b8f" target="_blank">
+                    <figure class="mobile img-portfolio">
+                        <img src="img/port-alura.png" alt="">
+                        <figcaption>Certificados Alura</figcaption>
+                    </figure>
+                </a>
+            </div>
+            <div class="column-medium">
+                <a href="https://www.freecodecamp.org/rafaelgeronimo" target="_blank">
+                    <figure class="img-portfolio">
+                        <img src="img/port-freecodecamp.png" alt="">
+                        <figcaption>FreeCodeCamp</figcaption>
+                    </figure>
+                </a>
+                <a href="https://geronimo.dev/" target="_blank">
+                    <figure class="img-portfolio">
+                        <img src="img/port-geronimodev.png" alt="">
+                        <figcaption>Projeto Rastejante</figcaption>
+                    </figure>
+                </a>
             </div>
             <div class="column-right">
-                <div class="design img-portfolio">
-                    <figcaption>Web Design</figcaption>
-                </div>
-                <div class="personal img-portfolio">
-                    <figcaption>Projetos Pessoais</figcaption>
-                </div>
+                <a href="https://rafaelgeronimo.com/" target="_blank">
+                    <figure class="img-portfolio">
+                        <img src="img/port-rgcom.png" alt="">
+                        <figcaption>Site Pessoal 1</figcaption>
+                    </figure>
+                </a>
+                <a href="http://rafaelgeronimo.com.br/" target="_blank">
+                    <figure class="img-portfolio">
+                        <img src="img/port-rgcombr.png" alt="">
+                        <figcaption>Site Pessoal 2</figcaption>
+                    </figure>
+                </a>
             </div>
         </div>
     </section>
+    <section class="contato" id="contato">
+        <h2 class="contato-title">Contato</h2>
+        <div class="contato-logos">
+            
+            <a href="https://wa.me/5541984375647" target="_blank" title="WhatsApp">
+                <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+            <a href="https://www.linkedin.com/in/rafaelgeronimo/" target="_blank" title="LinkedIn">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="https://github.com/rafaelgeronimo" target="_blank" title="GitHub">
+                <ion-icon name="logo-github"></ion-icon>
+            </a>
+            <a href="mailto:rafaelgeronimo@live.com" target="_blank" title="E-mail">
+                <ion-icon name="mail-outline"></ion-icon>
+            </a>
+
+            <a href="https://www.instagram.com/rafael_geronimo/" target="_blank" title="Instagram">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="https://twitter.com/RAFAELGER0NIM0" target="_blank" title="Twitter">
+                <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            
+            
+            
+            <a href="https://www.facebook.com/rafaelggeronimo/" target="_blank" title="Facebook">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="https://steamcommunity.com/id/rafaelgeronimo/" target="_blank" target="Steam">
+                <ion-icon name="logo-steam"></ion-icon>
+            </a>
+        </div>
+    </section> 
     <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
     <script src="js/script.js"></script>
     <script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101254748);</script>
